@@ -1,23 +1,26 @@
 Heart Failure Prediction
 
 
-Project Overview
+Project Overview:
 
 This project aims to predict heart failure events using clinical data. The analysis includes comprehensive Exploratory Data Analysis (EDA), feature selection, and benchmarking of several machine learning classification models.
 
-Dataset
+Dataset:
+
 The dataset contains 299 clinical observations with 13 features, including clinical markers like serum_creatinine, ejection_fraction, and age.
 
-Analysis Workflow
+Analysis Workflow:
 Exploratory Data Analysis (EDA): Visualizing feature distributions and mortality correlations using Seaborn and Matplotlib.
+
 Feature Selection: Identifying key predictors using Correlation Matrices, Univariate Selection (SelectKBest), and Tree-based Feature Importance.
+
 Model Development: Comparing performance across multiple algorithms:
-Logistic Regression
-Support Vector Classifier (SVC)
-Decision Tree Classifier
-Random Forest Classifier
-ExtraTrees Classifier
-K-Nearest Neighbors (KNN)
+- Logistic Regression
+- Support Vector Classifier (SVC)
+- Decision Tree Classifier
+- Random Forest Classifier
+- ExtraTrees Classifier
+- K-Nearest Neighbors (KNN)
 
 🚀 Project Highlights
 Exploratory Data Analysis: Visualized clinical features like serum_creatinine and ejection_fraction using Seaborn and Plotly.
@@ -28,7 +31,7 @@ Performance Metrics: Detailed breakdowns of Accuracy and Error Rates using Confu
 📊 Key Results
 Top Performers: Logistic Regression achieved the highest test accuracies.
 Critical Indicators: serum_creatinine and ejection_fraction were identified as the most significant clinical predictors of heart failure events.
-Class Imbalance: The dataset's imbalance towards survived patients significantly influenced model specificity.
+Class Imbalance: The dataset's imbalance towards surviving patients significantly influenced model specificity.
 
 🛠️ Tech Stack
 Language: Python
