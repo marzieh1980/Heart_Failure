@@ -1,5 +1,20 @@
-Heart Failure Prediction - Clinical Indicators Analysis
-This project implements a machine learning pipeline to predict mortality events in patients with heart failure using clinical data. It features extensive Exploratory Data Analysis (EDA), feature selection, and a comparative study of multiple classification algorithms.
+Heart Failure Prediction
+Project Overview
+This project aims to predict heart failure events using clinical data. The analysis includes comprehensive Exploratory Data Analysis (EDA), feature selection, and benchmarking of several machine learning classification models.
+
+Dataset
+The dataset contains 299 clinical observations with 13 features, including clinical markers like serum_creatinine, ejection_fraction, and age.
+
+Analysis Workflow
+Exploratory Data Analysis (EDA): Visualizing feature distributions and mortality correlations using Seaborn and Matplotlib.
+Feature Selection: Identifying key predictors using Correlation Matrices, Univariate Selection (SelectKBest), and Tree-based Feature Importance.
+Model Development: Comparing performance across multiple algorithms:
+Logistic Regression
+Support Vector Classifier (SVC)
+Decision Tree Classifier
+Random Forest Classifier
+ExtraTrees Classifier
+K-Nearest Neighbors (KNN)
 
 🚀 Project Highlights
 Exploratory Data Analysis: Visualized clinical features like serum_creatinine and ejection_fraction using Seaborn and Plotly.
@@ -8,16 +23,17 @@ Model Benchmarking: Implemented and evaluated Logistic Regression, SVC, Decision
 Performance Metrics: Detailed breakdowns of Accuracy and Error Rates using Confusion Matrices.
 
 📊 Key Results
-Logistic Regression: ~80% Accuracy
-ExtraTrees Classifier: ~78.3% Accuracy
-Random Forest: ~75% Accuracy
+Top Performers: Logistic Regression achieved the highest test accuracies.
+Critical Indicators: serum_creatinine and ejection_fraction were identified as the most significant clinical predictors of heart failure events.
+Class Imbalance: The dataset's imbalance towards survived patients significantly influenced model specificity.
 
 🛠️ Tech Stack
 Language: Python
 Libraries: Pandas, Scikit-Learn, Seaborn, Matplotlib, Plotly, mlxtend
 Environment: Google Colab / Jupyter Notebook
 
-📂 How to use
-Clone the repository.
-Install dependencies: pip install -r requirements.txt.
-Run the notebook to reproduce the results and analysis.
+📂 How to use and run
+1. Clone the repository.
+2. Install dependencies: pip install -r requirements.txt
+3. Open Heart_Failure_Prediction.ipynb in Google Colab or Jupyter Notebook.
+4. Run all cells to reproduce the analysis.
