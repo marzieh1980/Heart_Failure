@@ -1,5 +1,8 @@
 Heart Failure Prediction
+
+
 Project Overview
+
 This project aims to predict heart failure events using clinical data. The analysis includes comprehensive Exploratory Data Analysis (EDA), feature selection, and benchmarking of several machine learning classification models.
 
 Dataset
